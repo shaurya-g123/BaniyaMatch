@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F8F5EF;
+    --bg-secondary: #EFE9DE;
+    --bg-card: #FFFFFF;
+    --text-primary: #1D1B1A;
+    --text-secondary: #6E6963;
+    --border-color: #E3DDD3;
+    --brand-burgundy: #651F2A;
+    --brand-maroon: #8B3A46;
+    --accent-gold: #B8955A;
+    --accent-sage: #66735D;
+  }
+
+  .dark {
+    --bg-primary: #151313;
+    --bg-secondary: #211C1B;
+    --bg-card: #1D1817;
+    --text-primary: #F8F5EF;
+    --text-secondary: #B8B2AA;
+    --border-color: #332B2A;
+    --brand-burgundy: #8B3A46;
+    --brand-maroon: #A24B57;
+    --accent-gold: #C8A974;
+    --accent-sage: #829077;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D1C5;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #3B3331;
+}
+
+/* Quiet luxury typography utilities */
+.font-serif-luxury {
+  font-family: var(--font-serif), "Playfair Display", "Cormorant Garamond", Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: var(--font-sans), Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+}
