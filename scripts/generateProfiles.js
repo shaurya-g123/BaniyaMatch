@@ -1,33 +1,39 @@
 const fs = require('fs');
 const path = require('path');
 
-// Curated high-end, cosmopolitan, polished North Indian portraits with sleek international styling
+// Exclusively Authentic, Refined North Indian Portraits
 const femalePhotos = [
-  "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
+  "/portraits/female_1.jpg",
+  "/portraits/female_2.jpg",
+  "/portraits/female_3.jpg",
+  "/portraits/female_4.jpg",
+  "/portraits/female_5.jpg",
+  "/portraits/female_6.jpg",
+  "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80"
 ];
 
 const malePhotos = [
-  "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80"
+  "/portraits/male_1.jpg",
+  "/portraits/male_2.jpg",
+  "/portraits/male_3.jpg",
+  "/portraits/male_4.jpg",
+  "/portraits/male_5.jpg",
+  "/portraits/male_6.jpg",
+  "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80"
 ];
 
 // All 18 authentic traditional Gotras specified by the user
@@ -101,41 +107,51 @@ const maleFirstNames = [
 
 const eliteLocations = [
   { city: "Delhi (Golf Links)", state: "Delhi", country: "India", isNRI: false },
+  { city: "Delhi (Jor Bagh)", state: "Delhi", country: "India", isNRI: false },
+  { city: "Delhi (Vasant Vihar)", state: "Delhi", country: "India", isNRI: false },
+  { city: "Delhi (Greater Kailash)", state: "Delhi", country: "India", isNRI: false },
+  { city: "Mumbai (Malabar Hill)", state: "Maharashtra", country: "India", isNRI: false },
+  { city: "Mumbai (Bandra West)", state: "Maharashtra", country: "India", isNRI: false },
+  { city: "Mumbai (Juhu)", state: "Maharashtra", country: "India", isNRI: false },
   { city: "Gurugram (Golf Course Rd)", state: "Haryana", country: "India", isNRI: false },
-  { city: "South Mumbai (Malabar Hill)", state: "Maharashtra", country: "India", isNRI: false },
   { city: "Jaipur (Civil Lines)", state: "Rajasthan", country: "India", isNRI: false },
-  { city: "London (Mayfair)", state: "Greater London", country: "United Kingdom", isNRI: true },
-  { city: "Dubai (Downtown)", state: "Dubai", country: "United Arab Emirates", isNRI: true },
+  { city: "Chandigarh (Sector 9)", state: "Punjab", country: "India", isNRI: false },
+  { city: "London (Mayfair)", state: "England", country: "United Kingdom", isNRI: true },
   { city: "New York (Manhattan)", state: "New York", country: "United States", isNRI: true },
   { city: "San Francisco (Bay Area)", state: "California", country: "United States", isNRI: true },
+  { city: "Dubai (DIFC)", state: "Dubai", country: "United Arab Emirates", isNRI: true },
   { city: "Singapore (Marina Bay)", state: "Singapore", country: "Singapore", isNRI: true },
-  { city: "Toronto (Yorkville)", state: "Ontario", country: "Canada", isNRI: true },
-  { city: "Chandigarh (Sector 9)", state: "Punjab", country: "India", isNRI: false },
-  { city: "Bengaluru (Indiranagar)", state: "Karnataka", country: "India", isNRI: false },
-  { city: "Kolkata (Alipore)", state: "West Bengal", country: "India", isNRI: false },
-  { city: "Ahmedabad (Bodakdev)", state: "Gujarat", country: "India", isNRI: false }
+  { city: "Zurich (Enge)", state: "Zurich", country: "Switzerland", isNRI: true }
 ];
 
 const eliteColleges = [
-  "Columbia University & LSE", "Harvard Business School", "Oxford University", "Stanford University",
-  "Imperial College London", "IIT Delhi & IIM Ahmedabad", "IIT Bombay & Wharton", "NYU Stern",
-  "University of Cambridge", "SRCC, Delhi University", "LSE London", "Wharton School, Penn",
-  "University of Toronto", "AIIMS New Delhi", "National Law School (NLSIU)", "BITS Pilani"
+  "Columbia University & LSE",
+  "Oxford University & IIT Delhi",
+  "Wharton (UPenn) & SRCC",
+  "Harvard Business School & BITS Pilani",
+  "Stanford University",
+  "INSEAD & St. Stephen's College",
+  "London School of Economics (LSE)",
+  "IIM Ahmedabad & IIT Bombay",
+  "Cambridge University",
+  "ISB Hyderabad & SRCC",
+  "AIIMS New Delhi",
+  "National Law School (NLSIU Bangalore)"
 ];
 
 const eliteProfessions = [
-  { profession: "Vice President, Private Equity", degree: "MBA, Wharton & B.Tech", level: "MBA", income: "₹60 LPA–₹1 Cr" },
-  { profession: "Managing Partner, Family Office", degree: "MSc Finance, LSE", level: "Master's", income: "₹1 Cr+", isBiz: true },
-  { profession: "Senior Director, Artificial Intelligence", degree: "MS, Stanford University", level: "Master's", income: "₹60 LPA–₹1 Cr" },
-  { profession: "Strategy Consultant (Engagement Mgr)", degree: "MBA, INSEAD", level: "MBA", income: "₹40–60 LPA" },
-  { profession: "Founder & CEO, Consumer Brand", degree: "B.Tech, IIT & MBA", level: "MBA", income: "₹1 Cr+", isBiz: true },
-  { profession: "Corporate M&A Attorney", degree: "LLM, Columbia Law School", level: "Law", income: "₹40–60 LPA" },
-  { profession: "Radiologist & Clinical Fellow", degree: "MD, AIIMS New Delhi", level: "MD", income: "₹40–60 LPA" },
-  { profession: "Executive Director, Industrial Conglomerate", degree: "BBA, London Business School", level: "Bachelor's", income: "₹1 Cr+", isBiz: true },
-  { profession: "Product Management Lead", degree: "B.Tech, IIT & MBA, IIM-A", level: "MBA", income: "₹40–60 LPA" },
-  { profession: "Quantitative Portfolio Manager", degree: "MFE, Oxford University", level: "Master's", income: "₹60 LPA–₹1 Cr" },
-  { profession: "Architect & Spatial Designer", degree: "M.Arch, Architectural Association London", level: "Master's", income: "₹25–40 LPA" },
-  { profession: "Luxury Brand Director", degree: "MA, Central Saint Martins London", level: "Master's", income: "₹25–40 LPA" }
+  { profession: "Vice President, Private Equity", degree: "MBA, Wharton & B.Tech", level: "MBA", income: "₹60 LPA - ₹1 Cr" },
+  { profession: "Co-Founder & CEO, Series B Fintech", degree: "B.Tech, IIT & MS Stanford", level: "Master's", income: "₹1 Cr+" },
+  { profession: "Partner, Corporate Law Firm", degree: "LL.M, Harvard Law", level: "Master's", income: "₹50-75 LPA" },
+  { profession: "Executive Director, Family Conglomerate", degree: "B.Sc, Wharton & Family Office", level: "Bachelor's", income: "₹1 Cr+", isBiz: true },
+  { profession: "Principal, Management Consulting", degree: "MBA, INSEAD", level: "MBA", income: "₹55-80 LPA" },
+  { profession: "Director of AI Research", degree: "Ph.D, Stanford / Carnegie Mellon", level: "Doctorate", income: "₹80 LPA - ₹1.2 Cr" },
+  { profession: "Managing Director, Family Textile Mills", degree: "B.Com (Hons), SRCC & MBA London", level: "MBA", income: "₹1 Cr+", isBiz: true },
+  { profession: "Consultant Surgeon (Super-Specialist)", degree: "MD, M.Ch, AIIMS New Delhi", level: "Doctorate", income: "₹45-65 LPA" },
+  { profession: "Product Management Lead", degree: "B.Tech, IIT & MBA, IIM-A", level: "MBA", income: "₹40-60 LPA" },
+  { profession: "Quantitative Portfolio Manager", degree: "MFE, Oxford University", level: "Master's", income: "₹60 LPA - ₹1 Cr" },
+  { profession: "Architect & Spatial Designer", degree: "M.Arch, Architectural Association London", level: "Master's", income: "₹25-40 LPA" },
+  { profession: "Luxury Brand Director", degree: "MA, Central Saint Martins London", level: "Master's", income: "₹25-40 LPA" }
 ];
 
 const diets = ["Pure Vegetarian", "Pure Vegetarian", "Jain Vegetarian", "Pure Vegetarian", "Vegan"];
@@ -169,7 +185,7 @@ for (let i = 0; i < 108; i++) {
   const manglik = manglikStatuses[i % manglikStatuses.length];
 
   const age = 24 + (i % 14); // 24 to 37
-  const heightFeet = isFemale ? 5 : 5;
+  const heightFeet = 5;
   const heightInches = isFemale ? (4 + (i % 5)) : (9 + (i % 5));
   const heightStr = `${heightFeet}'${heightInches}"`;
 
@@ -228,11 +244,11 @@ for (let i = 0; i < 108; i++) {
       turnover: "₹50 Cr - ₹250 Cr Annual"
     } : undefined,
     diet: diet,
-    religion: surnameObj.community.includes("Jain") ? "Jain" : "Hindu",
+    religion: "Hindu",
     lifestyle: {
       smoking: "Non-smoker",
-      drinking: i % 8 === 0 ? "Occasional wine" : "Non-drinker",
-      fitness: i % 2 === 0 ? "Reformer pilates & tennis" : "Daily marathon training & gym",
+      drinking: "Occasional wine",
+      fitness: "Reformer pilates & tennis",
       spiritual: "Meditation, temple visits & mindfulness",
       social: "Cultured, loves private dinners and family reunions"
     },

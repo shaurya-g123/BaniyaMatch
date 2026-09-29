@@ -110,34 +110,60 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Right Editorial Couple Image */}
+          {/* Right Editorial Dual North Indian Portrait Collage */}
           <div className="lg:col-span-6 relative">
-            <div className="relative aspect-[4/5] sm:aspect-[1/1] lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-elevated border-2 border-gold/30 bg-sand dark:bg-charcoal-muted">
-              <Image
-                src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=85"
-                alt="Modern North Indian couple with refined international aesthetic"
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover object-center"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-transparent" />
+            <div className="relative w-full h-[480px] sm:h-[540px] flex items-center justify-center">
+              {/* Groom Card (Back Left) */}
+              <div className="absolute left-0 sm:left-4 top-4 w-[60%] h-[82%] rounded-3xl overflow-hidden shadow-elevated border-2 border-gold/40 bg-sand dark:bg-charcoal-muted transform -rotate-3 hover:rotate-0 transition-transform duration-500 z-10">
+                <Image
+                  src="/portraits/male_1.jpg"
+                  alt="North Indian groom in traditional bandhgala sherwani"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 60vw, 30vw"
+                  className="object-cover object-top"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-transparent to-transparent" />
+                <div className="absolute bottom-3 left-3 right-3 text-white text-xs">
+                  <div className="font-serif font-bold text-sm text-ivory">Aarav Bansal, 28</div>
+                  <div className="text-[11px] text-gold font-medium">Gotra: Bansal • IIT & Stanford</div>
+                </div>
+              </div>
 
-              {/* Floating verified badge card */}
-              <div className="absolute bottom-6 left-6 right-6 p-4 sm:p-5 rounded-2xl bg-ivory/95 dark:bg-charcoal/95 backdrop-blur-md border border-gold/40 shadow-card flex items-center justify-between">
-                <div>
-                  <div className="flex items-center gap-1.5 text-xs font-bold text-burgundy dark:text-gold">
-                    <Sparkles className="w-3.5 h-3.5 fill-current" />
-                    <span>Holistic Compatibility Matrix</span>
-                  </div>
-                  <p className="text-xs text-charcoal dark:text-ivory mt-0.5">
-                    Agarwal, Goel, Bansal, Mittal, Singhal, Jindal, Maheshwari, Oswal, Gupta
-                  </p>
+              {/* Bride Card (Front Right) */}
+              <div className="absolute right-0 sm:right-4 bottom-4 w-[62%] h-[84%] rounded-3xl overflow-hidden shadow-elevated border-2 border-gold/60 bg-sand dark:bg-charcoal-muted transform rotate-3 hover:rotate-0 transition-transform duration-500 z-20">
+                <Image
+                  src="/portraits/female_1.jpg"
+                  alt="North Indian bride in designer pastel lehenga"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 60vw, 30vw"
+                  className="object-cover object-top"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-transparent to-transparent" />
+                <div className="absolute bottom-3 left-3 right-3 text-white text-xs">
+                  <div className="font-serif font-bold text-sm text-ivory">Riya Agarwal, 26</div>
+                  <div className="text-[11px] text-gold font-medium">Gotra: Garg • Columbia & Wharton</div>
                 </div>
-                <div className="text-right pl-4 border-l border-bmBorder dark:border-charcoal-border">
-                  <span className="text-[10px] text-bmText-secondary uppercase tracking-widest block font-semibold">Average</span>
-                  <span className="font-serif font-bold text-xl text-charcoal dark:text-ivory">94%</span>
+              </div>
+
+              {/* Centered Floating Compatibility Seal */}
+              <div className="absolute z-30 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 px-4 py-2.5 rounded-full bg-ivory/95 dark:bg-charcoal/95 backdrop-blur-md border-2 border-gold shadow-card flex items-center gap-2 animate-bounce-slow">
+                <Sparkles className="w-4 h-4 text-gold fill-gold" />
+                <div className="text-center">
+                  <span className="text-[11px] font-bold text-charcoal dark:text-ivory block leading-tight">
+                    98% Vedic & Life Fit
+                  </span>
+                  <span className="text-[9px] text-bmSuccess font-semibold block leading-tight">
+                    ✓ Swagotra Avoidance Verified
+                  </span>
                 </div>
+              </div>
+
+              {/* Top Floating Badge */}
+              <div className="absolute -top-3 right-8 z-30 px-3 py-1 rounded-full bg-burgundy text-white text-[11px] font-semibold shadow-md flex items-center gap-1.5 border border-gold/40">
+                <Crown className="w-3 h-3 text-gold" />
+                <span>North Indian Lineages</span>
               </div>
             </div>
           </div>

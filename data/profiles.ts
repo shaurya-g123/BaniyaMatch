@@ -19,7 +19,7 @@ export const mockProfiles: Profile[] = [
     "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
@@ -56,9 +56,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_1.jpg",
+      "/portraits/female_3.jpg",
+      "/portraits/female_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -89,31 +89,26 @@ export const mockProfiles: Profile[] = [
     "age": 25,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "Gurugram (Golf Course Rd)",
-    "state": "Haryana",
+    "city": "Delhi (Jor Bagh)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Goyal (Goel)",
     "maternalGotra": "Kansal",
-    "education": "MSc Finance, LSE",
-    "college": "Harvard Business School",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -134,7 +129,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Harvard Business School and currently based in Gurugram (Golf Course Rd). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Oxford University & IIT Delhi and currently based in Delhi (Jor Bagh). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -143,9 +138,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_2.jpg",
+      "/portraits/female_4.jpg",
+      "/portraits/female_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -163,7 +158,7 @@ export const mockProfiles: Profile[] = [
       "career": 93,
       "location": 93,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Jor Bagh), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -176,25 +171,25 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "South Mumbai (Malabar Hill)",
-    "state": "Maharashtra",
+    "city": "Delhi (Vasant Vihar)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Goyan",
     "maternalGotra": "Singhal",
-    "education": "MS, Stanford University",
-    "college": "Oxford University",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -216,7 +211,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between South Mumbai (Malabar Hill) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Delhi (Vasant Vihar) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -225,9 +220,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_3.jpg",
+      "/portraits/female_5.jpg",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -245,7 +240,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 94,
       "interests": 92,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Delhi (Vasant Vihar), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -258,26 +253,31 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
+    "city": "Delhi (Greater Kailash)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Bansal",
     "gotra": "Bansal",
     "maternalGotra": "Mangal",
-    "education": "MBA, INSEAD",
-    "college": "Stanford University",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -298,7 +298,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Strategy Consultant (Engagement Mgr). Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Executive Director, Family Conglomerate. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -307,9 +307,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_4.jpg",
+      "/portraits/female_6.jpg",
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -327,7 +327,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 93,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Greater Kailash), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -340,30 +340,25 @@ export const mockProfiles: Profile[] = [
     "age": 28,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "London (Mayfair)",
-    "state": "Greater London",
-    "country": "United Kingdom",
-    "isNRI": true,
+    "city": "Mumbai (Malabar Hill)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Mittal",
     "gotra": "Kansal",
     "maternalGotra": "Jindal",
-    "education": "B.Tech, IIT & MBA",
-    "college": "Imperial College London",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -385,7 +380,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in London (Mayfair). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Mumbai (Malabar Hill). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -394,9 +389,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_5.jpg",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -412,9 +407,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 94,
       "family": 93,
       "career": 96,
-      "location": 90,
+      "location": 96,
       "interests": 94,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -427,26 +422,26 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "Dubai (Downtown)",
-    "state": "Dubai",
-    "country": "United Arab Emirates",
-    "isNRI": true,
+    "city": "Mumbai (Bandra West)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Singhal",
     "gotra": "Singhal",
     "maternalGotra": "Tingal",
-    "education": "LLM, Columbia Law School",
-    "college": "IIT Delhi & IIM Ahmedabad",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -467,7 +462,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Singhal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at IIT Delhi & IIM Ahmedabad, currently working as a Corporate M&A Attorney in Dubai (Downtown). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Singhal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at INSEAD & St. Stephen's College, currently working as a Director of AI Research in Mumbai (Bandra West). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -476,9 +471,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_6.jpg",
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -494,9 +489,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 95,
       "family": 94,
       "career": 97,
-      "location": 91,
+      "location": 97,
       "interests": 95,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Bandra West), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -509,25 +504,30 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Mumbai (Juhu)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Jindal",
     "gotra": "Mangal",
     "maternalGotra": "Aeron (Airan)",
-    "education": "MD, AIIMS New Delhi",
-    "college": "IIT Bombay & Wharton",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -549,7 +549,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from IIT Bombay & Wharton and currently based in New York (Manhattan). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from London School of Economics (LSE) and currently based in Mumbai (Juhu). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -558,9 +558,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -576,9 +576,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 96,
       "family": 95,
       "career": 98,
-      "location": 92,
+      "location": 98,
       "interests": 96,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Juhu), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -591,31 +591,26 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Gurugram (Golf Course Rd)",
+    "state": "Haryana",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Jindal",
     "maternalGotra": "Dharan",
-    "education": "BBA, London Business School",
-    "college": "NYU Stern",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -636,7 +631,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between San Francisco (Bay Area) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Gurugram (Golf Course Rd) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -645,9 +640,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -663,9 +658,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 97,
       "family": 96,
       "career": 92,
-      "location": 93,
+      "location": 92,
       "interests": 97,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -678,19 +673,19 @@ export const mockProfiles: Profile[] = [
     "age": 32,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Singapore (Marina Bay)",
-    "state": "Singapore",
-    "country": "Singapore",
-    "isNRI": true,
+    "city": "Jaipur (Civil Lines)",
+    "state": "Rajasthan",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Tingal",
     "maternalGotra": "Madhukul",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "University of Cambridge",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
@@ -727,9 +722,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -745,9 +740,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 98,
       "family": 97,
       "career": 93,
-      "location": 94,
+      "location": 93,
       "interests": 98,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -760,26 +755,26 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
-    "isNRI": true,
+    "city": "Chandigarh (Sector 9)",
+    "state": "Punjab",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Tayal",
     "gotra": "Aeron (Airan)",
     "maternalGotra": "Mittal",
     "education": "MFE, Oxford University",
-    "college": "SRCC, Delhi University",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -800,7 +795,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Toronto (Yorkville). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Chandigarh (Sector 9). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -809,9 +804,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -827,9 +822,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 90,
       "family": 98,
       "career": 94,
-      "location": 95,
+      "location": 94,
       "interests": 90,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -842,25 +837,25 @@ export const mockProfiles: Profile[] = [
     "age": 34,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "Chandigarh (Sector 9)",
-    "state": "Punjab",
-    "country": "India",
-    "isNRI": false,
+    "city": "London (Mayfair)",
+    "state": "England",
+    "country": "United Kingdom",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Dharan",
     "maternalGotra": "Tayal",
     "education": "M.Arch, Architectural Association London",
-    "college": "LSE London",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -882,7 +877,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at LSE London, currently working as a Architect & Spatial Designer in Chandigarh (Sector 9). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at AIIMS New Delhi, currently working as a Architect & Spatial Designer in London (Mayfair). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -891,9 +886,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -909,9 +904,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 91,
       "family": 89,
       "career": 95,
-      "location": 95,
+      "location": 86,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -924,26 +919,26 @@ export const mockProfiles: Profile[] = [
     "age": 35,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "Bengaluru (Indiranagar)",
-    "state": "Karnataka",
-    "country": "India",
-    "isNRI": false,
+    "city": "New York (Manhattan)",
+    "state": "New York",
+    "country": "United States",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Madhukul",
     "maternalGotra": "Bhandal",
     "education": "MA, Central Saint Martins London",
-    "college": "Wharton School, Penn",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -964,7 +959,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Wharton School, Penn and currently based in Bengaluru (Indiranagar). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from National Law School (NLSIU Bangalore) and currently based in New York (Manhattan). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -973,9 +968,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -991,9 +986,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 92,
       "family": 90,
       "career": 96,
-      "location": 96,
+      "location": 87,
       "interests": 92,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Bengaluru (Indiranagar), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1006,25 +1001,25 @@ export const mockProfiles: Profile[] = [
     "age": 36,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Kolkata (Alipore)",
-    "state": "West Bengal",
-    "country": "India",
-    "isNRI": false,
+    "city": "San Francisco (Bay Area)",
+    "state": "California",
+    "country": "United States",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Mittal",
     "maternalGotra": "Kuchhal",
     "education": "MBA, Wharton & B.Tech",
-    "college": "University of Toronto",
+    "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -1046,7 +1041,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Kolkata (Alipore) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between San Francisco (Bay Area) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -1055,9 +1050,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -1073,9 +1068,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 93,
       "family": 91,
       "career": 97,
-      "location": 97,
+      "location": 88,
       "interests": 93,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Kolkata (Alipore), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1088,31 +1083,26 @@ export const mockProfiles: Profile[] = [
     "age": 37,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Ahmedabad (Bodakdev)",
-    "state": "Gujarat",
-    "country": "India",
-    "isNRI": false,
+    "city": "Dubai (DIFC)",
+    "state": "Dubai",
+    "country": "United Arab Emirates",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Tayal",
     "maternalGotra": "Nagal",
-    "education": "MSc Finance, LSE",
-    "college": "AIIMS New Delhi",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -1133,7 +1123,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Managing Partner, Family Office. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Co-Founder & CEO, Series B Fintech. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -1142,9 +1132,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -1160,9 +1150,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 94,
       "family": 92,
       "career": 98,
-      "location": 98,
+      "location": 89,
       "interests": 94,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Ahmedabad (Bodakdev), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (DIFC), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1175,25 +1165,25 @@ export const mockProfiles: Profile[] = [
     "age": 24,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "Delhi (Golf Links)",
-    "state": "Delhi",
-    "country": "India",
-    "isNRI": false,
+    "city": "Singapore (Marina Bay)",
+    "state": "Singapore",
+    "country": "Singapore",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Bhandal",
     "maternalGotra": "Bindal",
-    "education": "MS, Stanford University",
-    "college": "National Law School (NLSIU)",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -1215,7 +1205,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Delhi (Golf Links). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Singapore (Marina Bay). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -1224,9 +1214,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -1242,9 +1232,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 95,
       "family": 93,
       "career": 92,
-      "location": 92,
+      "location": 90,
       "interests": 95,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1257,26 +1247,31 @@ export const mockProfiles: Profile[] = [
     "age": 25,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "Gurugram (Golf Course Rd)",
-    "state": "Haryana",
-    "country": "India",
-    "isNRI": false,
+    "city": "Zurich (Enge)",
+    "state": "Zurich",
+    "country": "Switzerland",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Kuchhal",
     "maternalGotra": "Garg (Gargeya)",
-    "education": "MBA, INSEAD",
-    "college": "BITS Pilani",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -1297,7 +1292,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at BITS Pilani, currently working as a Strategy Consultant (Engagement Mgr) in Gurugram (Golf Course Rd). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Harvard Business School & BITS Pilani, currently working as a Executive Director, Family Conglomerate in Zurich (Enge). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -1306,9 +1301,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -1324,9 +1319,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 96,
       "family": 94,
       "career": 93,
-      "location": 93,
+      "location": 91,
       "interests": 96,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Zurich (Enge), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -1339,25 +1334,20 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "South Mumbai (Malabar Hill)",
-    "state": "Maharashtra",
+    "city": "Delhi (Golf Links)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Nagal",
     "maternalGotra": "Goyal (Goel)",
-    "education": "B.Tech, IIT & MBA",
-    "college": "Columbia University & LSE",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
@@ -1384,7 +1374,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Columbia University & LSE and currently based in South Mumbai (Malabar Hill). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Stanford University and currently based in Delhi (Golf Links). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -1393,9 +1383,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_1.jpg",
+      "/portraits/female_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -1413,7 +1403,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 94,
       "interests": 97,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1426,26 +1416,26 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
+    "city": "Delhi (Jor Bagh)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Bindal",
     "maternalGotra": "Goyan",
-    "education": "LLM, Columbia Law School",
-    "college": "Harvard Business School",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -1466,7 +1456,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Maheshwari traditions. Living between Jaipur (Civil Lines) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Maheshwari traditions. Living between Delhi (Jor Bagh) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -1475,9 +1465,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_2.jpg",
+      "/portraits/female_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -1495,7 +1485,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 98,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Delhi (Jor Bagh), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1508,25 +1498,30 @@ export const mockProfiles: Profile[] = [
     "age": 28,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "London (Mayfair)",
-    "state": "Greater London",
-    "country": "United Kingdom",
-    "isNRI": true,
+    "city": "Delhi (Vasant Vihar)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Khandelwal",
     "gotra": "Garg (Gargeya)",
     "maternalGotra": "Bansal",
-    "education": "MD, AIIMS New Delhi",
-    "college": "Oxford University",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -1548,7 +1543,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Radiologist & Clinical Fellow. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Managing Director, Family Textile Mills. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -1557,9 +1552,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_1.jpg",
+      "/portraits/female_3.jpg",
+      "/portraits/female_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -1575,9 +1570,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 90,
       "family": 97,
       "career": 96,
-      "location": 94,
+      "location": 96,
       "interests": 90,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Vasant Vihar), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1590,31 +1585,26 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "Dubai (Downtown)",
-    "state": "Dubai",
-    "country": "United Arab Emirates",
-    "isNRI": true,
+    "city": "Delhi (Greater Kailash)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Goyal (Goel)",
     "maternalGotra": "Kansal",
-    "education": "BBA, London Business School",
-    "college": "Stanford University",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -1635,7 +1625,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Dubai (Downtown). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Delhi (Greater Kailash). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -1644,9 +1634,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_2.jpg",
+      "/portraits/female_4.jpg",
+      "/portraits/female_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -1662,9 +1652,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 91,
       "family": 98,
       "career": 97,
-      "location": 95,
+      "location": 97,
       "interests": 91,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Delhi (Greater Kailash), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1677,25 +1667,25 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Mumbai (Malabar Hill)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Oswal",
     "gotra": "Goyan",
     "maternalGotra": "Singhal",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "Imperial College London",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -1717,7 +1707,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Oswal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Imperial College London, currently working as a Product Management Lead in New York (Manhattan). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Oswal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Cambridge University, currently working as a Product Management Lead in Mumbai (Malabar Hill). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -1726,9 +1716,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_3.jpg",
+      "/portraits/female_5.jpg",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -1744,9 +1734,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 92,
       "family": 89,
       "career": 98,
-      "location": 86,
+      "location": 98,
       "interests": 92,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -1759,26 +1749,26 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Mumbai (Bandra West)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Gupta",
     "gotra": "Bansal",
     "maternalGotra": "Mangal",
     "education": "MFE, Oxford University",
-    "college": "IIT Delhi & IIM Ahmedabad",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -1799,7 +1789,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from IIT Delhi & IIM Ahmedabad and currently based in San Francisco (Bay Area). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from ISB Hyderabad & SRCC and currently based in Mumbai (Bandra West). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -1808,9 +1798,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_4.jpg",
+      "/portraits/female_6.jpg",
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -1826,9 +1816,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 93,
       "family": 90,
       "career": 92,
-      "location": 87,
+      "location": 92,
       "interests": 93,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Bandra West), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1841,25 +1831,25 @@ export const mockProfiles: Profile[] = [
     "age": 32,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Singapore (Marina Bay)",
-    "state": "Singapore",
-    "country": "Singapore",
-    "isNRI": true,
+    "city": "Mumbai (Juhu)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Porwal",
     "gotra": "Kansal",
     "maternalGotra": "Jindal",
     "education": "M.Arch, Architectural Association London",
-    "college": "IIT Bombay & Wharton",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -1881,7 +1871,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Porwal traditions. Living between Singapore (Marina Bay) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Porwal traditions. Living between Mumbai (Juhu) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -1890,9 +1880,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_5.jpg",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -1908,9 +1898,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 94,
       "family": 91,
       "career": 93,
-      "location": 88,
+      "location": 93,
       "interests": 94,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Mumbai (Juhu), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -1923,26 +1913,26 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
-    "isNRI": true,
+    "city": "Gurugram (Golf Course Rd)",
+    "state": "Haryana",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Rastogi",
     "gotra": "Singhal",
     "maternalGotra": "Tingal",
     "education": "MA, Central Saint Martins London",
-    "college": "NYU Stern",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -1972,9 +1962,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_6.jpg",
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -1990,9 +1980,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 95,
       "family": 92,
       "career": 94,
-      "location": 89,
+      "location": 94,
       "interests": 95,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2005,8 +1995,8 @@ export const mockProfiles: Profile[] = [
     "age": 34,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "Chandigarh (Sector 9)",
-    "state": "Punjab",
+    "city": "Jaipur (Civil Lines)",
+    "state": "Rajasthan",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -2014,10 +2004,10 @@ export const mockProfiles: Profile[] = [
     "gotra": "Mangal",
     "maternalGotra": "Aeron (Airan)",
     "education": "MBA, Wharton & B.Tech",
-    "college": "University of Cambridge",
+    "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
@@ -2045,7 +2035,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Chandigarh (Sector 9). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Jaipur (Civil Lines). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -2054,9 +2044,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2074,7 +2064,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 96,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2087,31 +2077,26 @@ export const mockProfiles: Profile[] = [
     "age": 35,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "Bengaluru (Indiranagar)",
-    "state": "Karnataka",
+    "city": "Chandigarh (Sector 9)",
+    "state": "Punjab",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Mahajan",
     "gotra": "Jindal",
     "maternalGotra": "Dharan",
-    "education": "MSc Finance, LSE",
-    "college": "SRCC, Delhi University",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -2132,7 +2117,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Mahajan family where deep cultural heritage and a global worldview coexist seamlessly. Educated at SRCC, Delhi University, currently working as a Managing Partner, Family Office in Bengaluru (Indiranagar). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Mahajan family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Oxford University & IIT Delhi, currently working as a Co-Founder & CEO, Series B Fintech in Chandigarh (Sector 9). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -2141,9 +2126,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2161,7 +2146,7 @@ export const mockProfiles: Profile[] = [
       "career": 96,
       "location": 96,
       "interests": 97,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Bengaluru (Indiranagar), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -2174,25 +2159,25 @@ export const mockProfiles: Profile[] = [
     "age": 36,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "Kolkata (Alipore)",
-    "state": "West Bengal",
-    "country": "India",
-    "isNRI": false,
+    "city": "London (Mayfair)",
+    "state": "England",
+    "country": "United Kingdom",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Jain Baniya",
     "gotra": "Tingal",
     "maternalGotra": "Madhukul",
-    "education": "MS, Stanford University",
-    "college": "LSE London",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
-    "religion": "Jain",
+    "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -2214,7 +2199,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from LSE London and currently based in Kolkata (Alipore). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Wharton (UPenn) & SRCC and currently based in London (Mayfair). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -2223,9 +2208,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2241,9 +2226,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 98,
       "family": 95,
       "career": 97,
-      "location": 97,
+      "location": 92,
       "interests": 98,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Kolkata (Alipore), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2256,26 +2241,31 @@ export const mockProfiles: Profile[] = [
     "age": 37,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Ahmedabad (Bodakdev)",
-    "state": "Gujarat",
-    "country": "India",
-    "isNRI": false,
+    "city": "New York (Manhattan)",
+    "state": "New York",
+    "country": "United States",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Aeron (Airan)",
     "maternalGotra": "Mittal",
-    "education": "MBA, INSEAD",
-    "college": "Wharton School, Penn",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -2296,7 +2286,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Ahmedabad (Bodakdev) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between New York (Manhattan) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -2305,9 +2295,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2323,9 +2313,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 90,
       "family": 96,
       "career": 98,
-      "location": 98,
+      "location": 93,
       "interests": 90,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Ahmedabad (Bodakdev), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2338,30 +2328,25 @@ export const mockProfiles: Profile[] = [
     "age": 24,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Delhi (Golf Links)",
-    "state": "Delhi",
-    "country": "India",
-    "isNRI": false,
+    "city": "San Francisco (Bay Area)",
+    "state": "California",
+    "country": "United States",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Dharan",
     "maternalGotra": "Tayal",
-    "education": "B.Tech, IIT & MBA",
-    "college": "University of Toronto",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -2383,7 +2368,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Founder & CEO, Consumer Brand. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Principal, Management Consulting. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -2392,9 +2377,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2410,9 +2395,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 91,
       "family": 97,
       "career": 92,
-      "location": 92,
+      "location": 94,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2425,26 +2410,26 @@ export const mockProfiles: Profile[] = [
     "age": 25,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "Gurugram (Golf Course Rd)",
-    "state": "Haryana",
-    "country": "India",
-    "isNRI": false,
+    "city": "Dubai (DIFC)",
+    "state": "Dubai",
+    "country": "United Arab Emirates",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Madhukul",
     "maternalGotra": "Bhandal",
-    "education": "LLM, Columbia Law School",
-    "college": "AIIMS New Delhi",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -2465,7 +2450,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Gurugram (Golf Course Rd). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Dubai (DIFC). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -2474,9 +2459,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2492,9 +2477,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 92,
       "family": 98,
       "career": 93,
-      "location": 93,
+      "location": 95,
       "interests": 92,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Dubai (DIFC), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2507,25 +2492,30 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "South Mumbai (Malabar Hill)",
-    "state": "Maharashtra",
-    "country": "India",
-    "isNRI": false,
+    "city": "Singapore (Marina Bay)",
+    "state": "Singapore",
+    "country": "Singapore",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Bansal",
     "gotra": "Mittal",
     "maternalGotra": "Kuchhal",
-    "education": "MD, AIIMS New Delhi",
-    "college": "National Law School (NLSIU)",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -2547,7 +2537,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Bansal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at National Law School (NLSIU), currently working as a Radiologist & Clinical Fellow in South Mumbai (Malabar Hill). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Bansal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at London School of Economics (LSE), currently working as a Managing Director, Family Textile Mills in Singapore (Marina Bay). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -2556,9 +2546,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2574,9 +2564,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 93,
       "family": 89,
       "career": 94,
-      "location": 94,
+      "location": 86,
       "interests": 93,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -2589,31 +2579,26 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
-    "country": "India",
-    "isNRI": false,
+    "city": "Zurich (Enge)",
+    "state": "Zurich",
+    "country": "Switzerland",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Mittal",
     "gotra": "Tayal",
     "maternalGotra": "Nagal",
-    "education": "BBA, London Business School",
-    "college": "BITS Pilani",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -2634,7 +2619,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from BITS Pilani and currently based in Jaipur (Civil Lines). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from IIM Ahmedabad & IIT Bombay and currently based in Zurich (Enge). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -2643,9 +2628,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -2661,9 +2646,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 94,
       "family": 90,
       "career": 95,
-      "location": 95,
+      "location": 87,
       "interests": 94,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Zurich (Enge), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2676,19 +2661,19 @@ export const mockProfiles: Profile[] = [
     "age": 28,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "London (Mayfair)",
-    "state": "Greater London",
-    "country": "United Kingdom",
-    "isNRI": true,
+    "city": "Delhi (Golf Links)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Singhal",
     "gotra": "Bhandal",
     "maternalGotra": "Bindal",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "Columbia University & LSE",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
@@ -2716,7 +2701,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Singhal traditions. Living between London (Mayfair) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Singhal traditions. Living between Delhi (Golf Links) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -2725,9 +2710,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -2743,9 +2728,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 95,
       "family": 91,
       "career": 96,
-      "location": 88,
+      "location": 96,
       "interests": 95,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2758,26 +2743,26 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Dubai (Downtown)",
-    "state": "Dubai",
-    "country": "United Arab Emirates",
-    "isNRI": true,
+    "city": "Delhi (Jor Bagh)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Jindal",
     "gotra": "Kuchhal",
     "maternalGotra": "Garg (Gargeya)",
     "education": "MFE, Oxford University",
-    "college": "Harvard Business School",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -2807,9 +2792,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -2825,9 +2810,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 96,
       "family": 92,
       "career": 97,
-      "location": 89,
+      "location": 97,
       "interests": 96,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Jor Bagh), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2840,25 +2825,25 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Delhi (Vasant Vihar)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Nagal",
     "maternalGotra": "Goyal (Goel)",
     "education": "M.Arch, Architectural Association London",
-    "college": "Oxford University",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -2880,7 +2865,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in New York (Manhattan). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Delhi (Vasant Vihar). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -2889,9 +2874,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_1.jpg",
+      "/portraits/female_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -2907,9 +2892,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 97,
       "family": 93,
       "career": 98,
-      "location": 90,
+      "location": 98,
       "interests": 97,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Delhi (Vasant Vihar), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -2922,26 +2907,26 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Delhi (Greater Kailash)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Bindal",
     "maternalGotra": "Goyan",
     "education": "MA, Central Saint Martins London",
-    "college": "Stanford University",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -2962,7 +2947,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Stanford University, currently working as a Luxury Brand Director in San Francisco (Bay Area). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at National Law School (NLSIU Bangalore), currently working as a Luxury Brand Director in Delhi (Greater Kailash). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -2971,9 +2956,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_2.jpg",
+      "/portraits/female_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -2989,9 +2974,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 98,
       "family": 94,
       "career": 92,
-      "location": 91,
+      "location": 92,
       "interests": 98,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Greater Kailash), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -3004,25 +2989,25 @@ export const mockProfiles: Profile[] = [
     "age": 32,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "Singapore (Marina Bay)",
-    "state": "Singapore",
-    "country": "Singapore",
-    "isNRI": true,
+    "city": "Mumbai (Malabar Hill)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Tayal",
     "gotra": "Garg (Gargeya)",
     "maternalGotra": "Bansal",
     "education": "MBA, Wharton & B.Tech",
-    "college": "Imperial College London",
+    "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -3044,7 +3029,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Imperial College London and currently based in Singapore (Marina Bay). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Columbia University & LSE and currently based in Mumbai (Malabar Hill). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -3053,9 +3038,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_1.jpg",
+      "/portraits/female_3.jpg",
+      "/portraits/female_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -3071,9 +3056,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 90,
       "family": 95,
       "career": 93,
-      "location": 92,
+      "location": 93,
       "interests": 90,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3086,31 +3071,26 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
-    "isNRI": true,
+    "city": "Mumbai (Bandra West)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Goyal (Goel)",
     "maternalGotra": "Kansal",
-    "education": "MSc Finance, LSE",
-    "college": "IIT Delhi & IIM Ahmedabad",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -3131,7 +3111,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Toronto (Yorkville) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Mumbai (Bandra West) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -3140,9 +3120,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_2.jpg",
+      "/portraits/female_4.jpg",
+      "/portraits/female_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -3158,9 +3138,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 91,
       "family": 96,
       "career": 94,
-      "location": 93,
+      "location": 94,
       "interests": 91,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Mumbai (Bandra West), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3173,25 +3153,25 @@ export const mockProfiles: Profile[] = [
     "age": 34,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Chandigarh (Sector 9)",
-    "state": "Punjab",
+    "city": "Mumbai (Juhu)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Goyan",
     "maternalGotra": "Singhal",
-    "education": "MS, Stanford University",
-    "college": "IIT Bombay & Wharton",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -3213,7 +3193,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Senior Director, Artificial Intelligence. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Partner, Corporate Law Firm. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -3222,9 +3202,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_3.jpg",
+      "/portraits/female_5.jpg",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3242,7 +3222,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 92,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Juhu), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3255,26 +3235,31 @@ export const mockProfiles: Profile[] = [
     "age": 35,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "Bengaluru (Indiranagar)",
-    "state": "Karnataka",
+    "city": "Gurugram (Golf Course Rd)",
+    "state": "Haryana",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Bansal",
     "maternalGotra": "Mangal",
-    "education": "MBA, INSEAD",
-    "college": "NYU Stern",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -3295,7 +3280,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Bengaluru (Indiranagar). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Gurugram (Golf Course Rd). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -3304,9 +3289,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_4.jpg",
+      "/portraits/female_6.jpg",
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3324,7 +3309,7 @@ export const mockProfiles: Profile[] = [
       "career": 96,
       "location": 96,
       "interests": 93,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Bengaluru (Indiranagar), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3337,25 +3322,20 @@ export const mockProfiles: Profile[] = [
     "age": 36,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "Kolkata (Alipore)",
-    "state": "West Bengal",
+    "city": "Jaipur (Civil Lines)",
+    "state": "Rajasthan",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Kansal",
     "maternalGotra": "Jindal",
-    "education": "B.Tech, IIT & MBA",
-    "college": "University of Cambridge",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
@@ -3382,7 +3362,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at University of Cambridge, currently working as a Founder & CEO, Consumer Brand in Kolkata (Alipore). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Stanford University, currently working as a Principal, Management Consulting in Jaipur (Civil Lines). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -3391,9 +3371,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_5.jpg",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3411,7 +3391,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 97,
       "interests": 94,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Kolkata (Alipore), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -3424,26 +3404,26 @@ export const mockProfiles: Profile[] = [
     "age": 37,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "Ahmedabad (Bodakdev)",
-    "state": "Gujarat",
+    "city": "Chandigarh (Sector 9)",
+    "state": "Punjab",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Singhal",
     "maternalGotra": "Tingal",
-    "education": "LLM, Columbia Law School",
-    "college": "SRCC, Delhi University",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -3464,7 +3444,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from SRCC, Delhi University and currently based in Ahmedabad (Bodakdev). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from INSEAD & St. Stephen's College and currently based in Chandigarh (Sector 9). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -3473,9 +3453,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80"
+      "/portraits/female_6.jpg",
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3493,7 +3473,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 98,
       "interests": 95,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Ahmedabad (Bodakdev), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3506,25 +3486,30 @@ export const mockProfiles: Profile[] = [
     "age": 24,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Delhi (Golf Links)",
-    "state": "Delhi",
-    "country": "India",
-    "isNRI": false,
+    "city": "London (Mayfair)",
+    "state": "England",
+    "country": "United Kingdom",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Mangal",
     "maternalGotra": "Aeron (Airan)",
-    "education": "MD, AIIMS New Delhi",
-    "college": "LSE London",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -3546,7 +3531,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Delhi (Golf Links) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between London (Mayfair) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -3555,9 +3540,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3573,9 +3558,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 96,
       "family": 91,
       "career": 92,
-      "location": 92,
+      "location": 88,
       "interests": 96,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3588,31 +3573,26 @@ export const mockProfiles: Profile[] = [
     "age": 25,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Gurugram (Golf Course Rd)",
-    "state": "Haryana",
-    "country": "India",
-    "isNRI": false,
+    "city": "New York (Manhattan)",
+    "state": "New York",
+    "country": "United States",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Jindal",
     "maternalGotra": "Dharan",
-    "education": "BBA, London Business School",
-    "college": "Wharton School, Penn",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -3633,7 +3613,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Executive Director, Industrial Conglomerate. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Consultant Surgeon (Super-Specialist). Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -3642,9 +3622,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1667053312811-6594186d37ca?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3660,9 +3640,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 97,
       "family": 92,
       "career": 93,
-      "location": 93,
+      "location": 89,
       "interests": 97,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3675,25 +3655,25 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "South Mumbai (Malabar Hill)",
-    "state": "Maharashtra",
-    "country": "India",
-    "isNRI": false,
+    "city": "San Francisco (Bay Area)",
+    "state": "California",
+    "country": "United States",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Tingal",
     "maternalGotra": "Madhukul",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "University of Toronto",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -3715,7 +3695,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in South Mumbai (Malabar Hill). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in San Francisco (Bay Area). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -3724,9 +3704,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1663475928660-7afa0461b005?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3742,9 +3722,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 98,
       "family": 93,
       "career": 94,
-      "location": 94,
+      "location": 90,
       "interests": 98,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3757,26 +3737,26 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
-    "country": "India",
-    "isNRI": false,
+    "city": "Dubai (DIFC)",
+    "state": "Dubai",
+    "country": "United Arab Emirates",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Khandelwal",
     "gotra": "Aeron (Airan)",
     "maternalGotra": "Mittal",
     "education": "MFE, Oxford University",
-    "college": "AIIMS New Delhi",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -3797,7 +3777,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Khandelwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at AIIMS New Delhi, currently working as a Quantitative Portfolio Manager in Jaipur (Civil Lines). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Khandelwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at ISB Hyderabad & SRCC, currently working as a Quantitative Portfolio Manager in Dubai (DIFC). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -3806,9 +3786,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1660733100681-ddeb2b81feee?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3824,9 +3804,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 90,
       "family": 94,
       "career": 95,
-      "location": 95,
+      "location": 91,
       "interests": 90,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (DIFC), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -3839,25 +3819,25 @@ export const mockProfiles: Profile[] = [
     "age": 28,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "London (Mayfair)",
-    "state": "Greater London",
-    "country": "United Kingdom",
+    "city": "Singapore (Marina Bay)",
+    "state": "Singapore",
+    "country": "Singapore",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Dharan",
     "maternalGotra": "Tayal",
     "education": "M.Arch, Architectural Association London",
-    "college": "National Law School (NLSIU)",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -3879,7 +3859,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from National Law School (NLSIU) and currently based in London (Mayfair). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from AIIMS New Delhi and currently based in Singapore (Marina Bay). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -3888,9 +3868,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1621786030484-4c855ecd48d6?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3908,7 +3888,7 @@ export const mockProfiles: Profile[] = [
       "career": 96,
       "location": 92,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -3921,26 +3901,26 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Dubai (Downtown)",
-    "state": "Dubai",
-    "country": "United Arab Emirates",
+    "city": "Zurich (Enge)",
+    "state": "Zurich",
+    "country": "Switzerland",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Oswal",
     "gotra": "Madhukul",
     "maternalGotra": "Bhandal",
     "education": "MA, Central Saint Martins London",
-    "college": "BITS Pilani",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -3961,7 +3941,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Oswal traditions. Living between Dubai (Downtown) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Oswal traditions. Living between Zurich (Enge) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -3970,9 +3950,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -3990,7 +3970,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 93,
       "interests": 92,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Zurich (Enge), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4003,10 +3983,10 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Delhi (Golf Links)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Gupta",
     "gotra": "Mittal",
@@ -4015,7 +3995,7 @@ export const mockProfiles: Profile[] = [
     "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
@@ -4052,9 +4032,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -4070,9 +4050,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 93,
       "family": 97,
       "career": 98,
-      "location": 94,
+      "location": 98,
       "interests": 93,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4085,31 +4065,26 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Female",
     "height": "5'8\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Delhi (Jor Bagh)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Porwal",
     "gotra": "Tayal",
     "maternalGotra": "Nagal",
-    "education": "MSc Finance, LSE",
-    "college": "Harvard Business School",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -4130,7 +4105,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in San Francisco (Bay Area). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Delhi (Jor Bagh). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -4139,9 +4114,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -4157,9 +4132,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 94,
       "family": 98,
       "career": 92,
-      "location": 95,
+      "location": 92,
       "interests": 94,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Delhi (Jor Bagh), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4172,25 +4147,25 @@ export const mockProfiles: Profile[] = [
     "age": 32,
     "gender": "Female",
     "height": "5'4\"",
-    "city": "Singapore (Marina Bay)",
-    "state": "Singapore",
-    "country": "Singapore",
-    "isNRI": true,
+    "city": "Delhi (Vasant Vihar)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Rastogi",
     "gotra": "Bhandal",
     "maternalGotra": "Bindal",
-    "education": "MS, Stanford University",
-    "college": "Oxford University",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -4212,7 +4187,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Rastogi family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Oxford University, currently working as a Senior Director, Artificial Intelligence in Singapore (Marina Bay). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Rastogi family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Wharton (UPenn) & SRCC, currently working as a Partner, Corporate Law Firm in Delhi (Vasant Vihar). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -4221,9 +4196,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1597586124394-fbd6ef244026?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -4239,9 +4214,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 95,
       "family": 89,
       "career": 93,
-      "location": 86,
+      "location": 93,
       "interests": 95,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Vasant Vihar), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -4254,26 +4229,31 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Female",
     "height": "5'5\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
-    "isNRI": true,
+    "city": "Delhi (Greater Kailash)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Lodha",
     "gotra": "Kuchhal",
     "maternalGotra": "Garg (Gargeya)",
-    "education": "MBA, INSEAD",
-    "college": "Stanford University",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -4294,7 +4274,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Stanford University and currently based in Toronto (Yorkville). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Harvard Business School & BITS Pilani and currently based in Delhi (Greater Kailash). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -4303,9 +4283,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1605369572399-05d8d64a0f6e?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -4321,9 +4301,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 96,
       "family": 90,
       "career": 94,
-      "location": 87,
+      "location": 94,
       "interests": 96,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Greater Kailash), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4336,30 +4316,25 @@ export const mockProfiles: Profile[] = [
     "age": 34,
     "gender": "Female",
     "height": "5'6\"",
-    "city": "Chandigarh (Sector 9)",
-    "state": "Punjab",
+    "city": "Mumbai (Malabar Hill)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Mahajan",
     "gotra": "Nagal",
     "maternalGotra": "Goyal (Goel)",
-    "education": "B.Tech, IIT & MBA",
-    "college": "Imperial College London",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -4381,7 +4356,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Mahajan traditions. Living between Chandigarh (Sector 9) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Mahajan traditions. Living between Mumbai (Malabar Hill) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -4390,9 +4365,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_1.jpg",
+      "/portraits/female_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -4410,7 +4385,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 97,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4423,26 +4398,26 @@ export const mockProfiles: Profile[] = [
     "age": 35,
     "gender": "Female",
     "height": "5'7\"",
-    "city": "Bengaluru (Indiranagar)",
-    "state": "Karnataka",
+    "city": "Mumbai (Bandra West)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Jain Baniya",
     "gotra": "Bindal",
     "maternalGotra": "Goyan",
-    "education": "LLM, Columbia Law School",
-    "college": "IIT Delhi & IIM Ahmedabad",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
-    "religion": "Jain",
+    "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -4463,7 +4438,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Corporate M&A Attorney. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Director of AI Research. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -4472,9 +4447,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?auto=format&fit=crop&w=800&q=80",
+      "/portraits/female_2.jpg",
+      "/portraits/female_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -4492,7 +4467,7 @@ export const mockProfiles: Profile[] = [
       "career": 96,
       "location": 96,
       "interests": 98,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Bengaluru (Indiranagar), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Bandra West), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4505,25 +4480,30 @@ export const mockProfiles: Profile[] = [
     "age": 36,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Kolkata (Alipore)",
-    "state": "West Bengal",
+    "city": "Mumbai (Juhu)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Garg (Gargeya)",
     "maternalGotra": "Bansal",
-    "education": "MD, AIIMS New Delhi",
-    "college": "IIT Bombay & Wharton",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -4545,7 +4525,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Kolkata (Alipore). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Mumbai (Juhu). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -4554,9 +4534,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -4574,7 +4554,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 97,
       "interests": 90,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Kolkata (Alipore), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Mumbai (Juhu), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4587,31 +4567,26 @@ export const mockProfiles: Profile[] = [
     "age": 37,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "Ahmedabad (Bodakdev)",
-    "state": "Gujarat",
+    "city": "Gurugram (Golf Course Rd)",
+    "state": "Haryana",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Goyal (Goel)",
     "maternalGotra": "Kansal",
-    "education": "BBA, London Business School",
-    "college": "NYU Stern",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -4632,7 +4607,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at NYU Stern, currently working as a Executive Director, Industrial Conglomerate in Ahmedabad (Bodakdev). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at IIM Ahmedabad & IIT Bombay, currently working as a Consultant Surgeon (Super-Specialist) in Gurugram (Golf Course Rd). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -4641,9 +4616,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -4661,7 +4636,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 98,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Ahmedabad (Bodakdev), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -4674,8 +4649,8 @@ export const mockProfiles: Profile[] = [
     "age": 24,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "Delhi (Golf Links)",
-    "state": "Delhi",
+    "city": "Jaipur (Civil Lines)",
+    "state": "Rajasthan",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -4683,10 +4658,10 @@ export const mockProfiles: Profile[] = [
     "gotra": "Goyan",
     "maternalGotra": "Singhal",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "University of Cambridge",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
@@ -4714,7 +4689,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from University of Cambridge and currently based in Delhi (Golf Links). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Cambridge University and currently based in Jaipur (Civil Lines). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -4723,9 +4698,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -4743,7 +4718,7 @@ export const mockProfiles: Profile[] = [
       "career": 92,
       "location": 92,
       "interests": 92,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4756,8 +4731,8 @@ export const mockProfiles: Profile[] = [
     "age": 25,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "Gurugram (Golf Course Rd)",
-    "state": "Haryana",
+    "city": "Chandigarh (Sector 9)",
+    "state": "Punjab",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -4765,17 +4740,17 @@ export const mockProfiles: Profile[] = [
     "gotra": "Bansal",
     "maternalGotra": "Mangal",
     "education": "MFE, Oxford University",
-    "college": "SRCC, Delhi University",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -4796,7 +4771,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Bansal traditions. Living between Gurugram (Golf Course Rd) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Bansal traditions. Living between Chandigarh (Sector 9) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -4805,9 +4780,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -4825,7 +4800,7 @@ export const mockProfiles: Profile[] = [
       "career": 93,
       "location": 93,
       "interests": 93,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4838,25 +4813,25 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "South Mumbai (Malabar Hill)",
-    "state": "Maharashtra",
-    "country": "India",
-    "isNRI": false,
+    "city": "London (Mayfair)",
+    "state": "England",
+    "country": "United Kingdom",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Mittal",
     "gotra": "Kansal",
     "maternalGotra": "Jindal",
     "education": "M.Arch, Architectural Association London",
-    "college": "LSE London",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -4887,9 +4862,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -4907,7 +4882,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 94,
       "interests": 94,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -4920,26 +4895,26 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
-    "country": "India",
-    "isNRI": false,
+    "city": "New York (Manhattan)",
+    "state": "New York",
+    "country": "United States",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Singhal",
     "gotra": "Singhal",
     "maternalGotra": "Tingal",
     "education": "MA, Central Saint Martins London",
-    "college": "Wharton School, Penn",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -4960,7 +4935,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Jaipur (Civil Lines). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in New York (Manhattan). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -4969,9 +4944,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -4989,7 +4964,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 95,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5002,25 +4977,25 @@ export const mockProfiles: Profile[] = [
     "age": 28,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "London (Mayfair)",
-    "state": "Greater London",
-    "country": "United Kingdom",
+    "city": "San Francisco (Bay Area)",
+    "state": "California",
+    "country": "United States",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Jindal",
     "gotra": "Mangal",
     "maternalGotra": "Aeron (Airan)",
     "education": "MBA, Wharton & B.Tech",
-    "college": "University of Toronto",
+    "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -5042,7 +5017,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Jindal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at University of Toronto, currently working as a Vice President, Private Equity in London (Mayfair). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Jindal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Columbia University & LSE, currently working as a Vice President, Private Equity in San Francisco (Bay Area). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -5051,9 +5026,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -5071,7 +5046,7 @@ export const mockProfiles: Profile[] = [
       "career": 96,
       "location": 86,
       "interests": 96,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -5084,7 +5059,7 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "Dubai (Downtown)",
+    "city": "Dubai (DIFC)",
     "state": "Dubai",
     "country": "United Arab Emirates",
     "isNRI": true,
@@ -5092,23 +5067,18 @@ export const mockProfiles: Profile[] = [
     "community": "Agarwal",
     "gotra": "Jindal",
     "maternalGotra": "Dharan",
-    "education": "MSc Finance, LSE",
-    "college": "AIIMS New Delhi",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -5129,7 +5099,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from AIIMS New Delhi and currently based in Dubai (Downtown). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Oxford University & IIT Delhi and currently based in Dubai (DIFC). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -5138,9 +5108,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -5158,7 +5128,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 87,
       "interests": 97,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (DIFC), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5171,25 +5141,25 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
-    "country": "United States",
+    "city": "Singapore (Marina Bay)",
+    "state": "Singapore",
+    "country": "Singapore",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Tingal",
     "maternalGotra": "Madhukul",
-    "education": "MS, Stanford University",
-    "college": "National Law School (NLSIU)",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -5211,7 +5181,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between New York (Manhattan) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Singapore (Marina Bay) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -5220,9 +5190,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -5240,7 +5210,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 88,
       "interests": 98,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5253,26 +5223,31 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
-    "country": "United States",
+    "city": "Zurich (Enge)",
+    "state": "Zurich",
+    "country": "Switzerland",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Tayal",
     "gotra": "Aeron (Airan)",
     "maternalGotra": "Mittal",
-    "education": "MBA, INSEAD",
-    "college": "BITS Pilani",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -5293,7 +5268,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Strategy Consultant (Engagement Mgr). Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Executive Director, Family Conglomerate. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -5302,9 +5277,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -5322,7 +5297,7 @@ export const mockProfiles: Profile[] = [
       "career": 92,
       "location": 89,
       "interests": 90,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Zurich (Enge), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5335,25 +5310,20 @@ export const mockProfiles: Profile[] = [
     "age": 32,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Singapore (Marina Bay)",
-    "state": "Singapore",
-    "country": "Singapore",
-    "isNRI": true,
+    "city": "Delhi (Golf Links)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Dharan",
     "maternalGotra": "Tayal",
-    "education": "B.Tech, IIT & MBA",
-    "college": "Columbia University & LSE",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
@@ -5380,7 +5350,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Singapore (Marina Bay). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Delhi (Golf Links). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -5389,9 +5359,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -5407,9 +5377,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 91,
       "family": 93,
       "career": 93,
-      "location": 90,
+      "location": 93,
       "interests": 91,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5422,26 +5392,26 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
-    "isNRI": true,
+    "city": "Delhi (Jor Bagh)",
+    "state": "Delhi",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Madhukul",
     "maternalGotra": "Bhandal",
-    "education": "LLM, Columbia Law School",
-    "college": "Harvard Business School",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -5462,7 +5432,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Harvard Business School, currently working as a Corporate M&A Attorney in Toronto (Yorkville). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at INSEAD & St. Stephen's College, currently working as a Director of AI Research in Delhi (Jor Bagh). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -5471,9 +5441,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -5489,9 +5459,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 92,
       "family": 94,
       "career": 94,
-      "location": 91,
+      "location": 94,
       "interests": 92,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Jor Bagh), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -5504,25 +5474,30 @@ export const mockProfiles: Profile[] = [
     "age": 34,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "Chandigarh (Sector 9)",
-    "state": "Punjab",
+    "city": "Delhi (Vasant Vihar)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Mittal",
     "maternalGotra": "Kuchhal",
-    "education": "MD, AIIMS New Delhi",
-    "college": "Oxford University",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -5544,7 +5519,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Oxford University and currently based in Chandigarh (Sector 9). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from London School of Economics (LSE) and currently based in Delhi (Vasant Vihar). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -5553,9 +5528,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -5573,7 +5548,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 93,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Vasant Vihar), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5586,31 +5561,26 @@ export const mockProfiles: Profile[] = [
     "age": 35,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "Bengaluru (Indiranagar)",
-    "state": "Karnataka",
+    "city": "Delhi (Greater Kailash)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Tayal",
     "maternalGotra": "Nagal",
-    "education": "BBA, London Business School",
-    "college": "Stanford University",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -5631,7 +5601,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Bengaluru (Indiranagar) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Delhi (Greater Kailash) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -5640,9 +5610,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -5660,7 +5630,7 @@ export const mockProfiles: Profile[] = [
       "career": 96,
       "location": 96,
       "interests": 94,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Bengaluru (Indiranagar), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Delhi (Greater Kailash), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5673,8 +5643,8 @@ export const mockProfiles: Profile[] = [
     "age": 36,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "Kolkata (Alipore)",
-    "state": "West Bengal",
+    "city": "Mumbai (Malabar Hill)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -5682,16 +5652,16 @@ export const mockProfiles: Profile[] = [
     "gotra": "Bhandal",
     "maternalGotra": "Bindal",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "Imperial College London",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -5722,9 +5692,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -5742,7 +5712,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 97,
       "interests": 95,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Kolkata (Alipore), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5755,8 +5725,8 @@ export const mockProfiles: Profile[] = [
     "age": 37,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Ahmedabad (Bodakdev)",
-    "state": "Gujarat",
+    "city": "Mumbai (Bandra West)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -5764,17 +5734,17 @@ export const mockProfiles: Profile[] = [
     "gotra": "Kuchhal",
     "maternalGotra": "Garg (Gargeya)",
     "education": "MFE, Oxford University",
-    "college": "IIT Delhi & IIM Ahmedabad",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -5795,7 +5765,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Ahmedabad (Bodakdev). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Mumbai (Bandra West). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -5804,9 +5774,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -5824,7 +5794,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 98,
       "interests": 96,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Ahmedabad (Bodakdev), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Mumbai (Bandra West), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -5837,8 +5807,8 @@ export const mockProfiles: Profile[] = [
     "age": 24,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "Delhi (Golf Links)",
-    "state": "Delhi",
+    "city": "Mumbai (Juhu)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -5846,16 +5816,16 @@ export const mockProfiles: Profile[] = [
     "gotra": "Nagal",
     "maternalGotra": "Goyal (Goel)",
     "education": "M.Arch, Architectural Association London",
-    "college": "IIT Bombay & Wharton",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -5877,7 +5847,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Maheshwari family where deep cultural heritage and a global worldview coexist seamlessly. Educated at IIT Bombay & Wharton, currently working as a Architect & Spatial Designer in Delhi (Golf Links). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Maheshwari family where deep cultural heritage and a global worldview coexist seamlessly. Educated at AIIMS New Delhi, currently working as a Architect & Spatial Designer in Mumbai (Juhu). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -5886,9 +5856,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -5906,7 +5876,7 @@ export const mockProfiles: Profile[] = [
       "career": 92,
       "location": 92,
       "interests": 97,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Juhu), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -5928,17 +5898,17 @@ export const mockProfiles: Profile[] = [
     "gotra": "Bindal",
     "maternalGotra": "Goyan",
     "education": "MA, Central Saint Martins London",
-    "college": "NYU Stern",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -5959,7 +5929,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from NYU Stern and currently based in Gurugram (Golf Course Rd). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from National Law School (NLSIU Bangalore) and currently based in Gurugram (Golf Course Rd). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -5968,9 +5938,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6001,8 +5971,8 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "South Mumbai (Malabar Hill)",
-    "state": "Maharashtra",
+    "city": "Jaipur (Civil Lines)",
+    "state": "Rajasthan",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -6010,10 +5980,10 @@ export const mockProfiles: Profile[] = [
     "gotra": "Garg (Gargeya)",
     "maternalGotra": "Bansal",
     "education": "MBA, Wharton & B.Tech",
-    "college": "University of Cambridge",
+    "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
@@ -6041,7 +6011,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Khandelwal traditions. Living between South Mumbai (Malabar Hill) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Khandelwal traditions. Living between Jaipur (Civil Lines) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -6050,9 +6020,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6070,7 +6040,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 94,
       "interests": 90,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -6083,31 +6053,26 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
+    "city": "Chandigarh (Sector 9)",
+    "state": "Punjab",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Goyal (Goel)",
     "maternalGotra": "Kansal",
-    "education": "MSc Finance, LSE",
-    "college": "SRCC, Delhi University",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -6128,7 +6093,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Managing Partner, Family Office. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Co-Founder & CEO, Series B Fintech. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -6137,9 +6102,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6157,7 +6122,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -6171,24 +6136,24 @@ export const mockProfiles: Profile[] = [
     "gender": "Male",
     "height": "5'13\"",
     "city": "London (Mayfair)",
-    "state": "Greater London",
+    "state": "England",
     "country": "United Kingdom",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Oswal",
     "gotra": "Goyan",
     "maternalGotra": "Singhal",
-    "education": "MS, Stanford University",
-    "college": "LSE London",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -6219,9 +6184,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6252,26 +6217,31 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "Dubai (Downtown)",
-    "state": "Dubai",
-    "country": "United Arab Emirates",
+    "city": "New York (Manhattan)",
+    "state": "New York",
+    "country": "United States",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Gupta",
     "gotra": "Bansal",
     "maternalGotra": "Mangal",
-    "education": "MBA, INSEAD",
-    "college": "Wharton School, Penn",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -6292,7 +6262,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Gupta family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Wharton School, Penn, currently working as a Strategy Consultant (Engagement Mgr) in Dubai (Downtown). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Gupta family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Harvard Business School & BITS Pilani, currently working as a Executive Director, Family Conglomerate in New York (Manhattan). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -6301,9 +6271,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6321,7 +6291,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 91,
       "interests": 93,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -6334,30 +6304,25 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
+    "city": "San Francisco (Bay Area)",
+    "state": "California",
     "country": "United States",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Porwal",
     "gotra": "Kansal",
     "maternalGotra": "Jindal",
-    "education": "B.Tech, IIT & MBA",
-    "college": "University of Toronto",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -6379,7 +6344,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from University of Toronto and currently based in New York (Manhattan). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Stanford University and currently based in San Francisco (Bay Area). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -6388,9 +6353,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -6408,7 +6373,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 92,
       "interests": 94,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -6421,26 +6386,26 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
-    "country": "United States",
+    "city": "Dubai (DIFC)",
+    "state": "Dubai",
+    "country": "United Arab Emirates",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Rastogi",
     "gotra": "Singhal",
     "maternalGotra": "Tingal",
-    "education": "LLM, Columbia Law School",
-    "college": "AIIMS New Delhi",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -6461,7 +6426,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Rastogi traditions. Living between San Francisco (Bay Area) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Rastogi traditions. Living between Dubai (DIFC) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -6470,9 +6435,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -6490,7 +6455,7 @@ export const mockProfiles: Profile[] = [
       "career": 92,
       "location": 93,
       "interests": 95,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Dubai (DIFC), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -6511,17 +6476,22 @@ export const mockProfiles: Profile[] = [
     "community": "Lodha",
     "gotra": "Mangal",
     "maternalGotra": "Aeron (Airan)",
-    "education": "MD, AIIMS New Delhi",
-    "college": "National Law School (NLSIU)",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -6543,7 +6513,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Radiologist & Clinical Fellow. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Managing Director, Family Textile Mills. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -6552,9 +6522,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -6585,31 +6555,26 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
+    "city": "Zurich (Enge)",
+    "state": "Zurich",
+    "country": "Switzerland",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Mahajan",
     "gotra": "Jindal",
     "maternalGotra": "Dharan",
-    "education": "BBA, London Business School",
-    "college": "BITS Pilani",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -6630,7 +6595,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Toronto (Yorkville). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Zurich (Enge). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -6639,9 +6604,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -6659,7 +6624,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 95,
       "interests": 97,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Zurich (Enge), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -6672,8 +6637,8 @@ export const mockProfiles: Profile[] = [
     "age": 34,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "Chandigarh (Sector 9)",
-    "state": "Punjab",
+    "city": "Delhi (Golf Links)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -6681,13 +6646,13 @@ export const mockProfiles: Profile[] = [
     "gotra": "Tingal",
     "maternalGotra": "Madhukul",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "Columbia University & LSE",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
-    "religion": "Jain",
+    "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
       "drinking": "Occasional wine",
@@ -6712,7 +6677,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Jain Baniya family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Columbia University & LSE, currently working as a Product Management Lead in Chandigarh (Sector 9). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Jain Baniya family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Cambridge University, currently working as a Product Management Lead in Delhi (Golf Links). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -6721,9 +6686,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6741,7 +6706,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 98,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -6754,8 +6719,8 @@ export const mockProfiles: Profile[] = [
     "age": 35,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "Bengaluru (Indiranagar)",
-    "state": "Karnataka",
+    "city": "Delhi (Jor Bagh)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -6763,17 +6728,17 @@ export const mockProfiles: Profile[] = [
     "gotra": "Aeron (Airan)",
     "maternalGotra": "Mittal",
     "education": "MFE, Oxford University",
-    "college": "Harvard Business School",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -6794,7 +6759,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Harvard Business School and currently based in Bengaluru (Indiranagar). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from ISB Hyderabad & SRCC and currently based in Delhi (Jor Bagh). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -6803,9 +6768,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6823,7 +6788,7 @@ export const mockProfiles: Profile[] = [
       "career": 96,
       "location": 96,
       "interests": 90,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Bengaluru (Indiranagar), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Jor Bagh), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -6836,8 +6801,8 @@ export const mockProfiles: Profile[] = [
     "age": 36,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "Kolkata (Alipore)",
-    "state": "West Bengal",
+    "city": "Delhi (Vasant Vihar)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -6845,16 +6810,16 @@ export const mockProfiles: Profile[] = [
     "gotra": "Dharan",
     "maternalGotra": "Tayal",
     "education": "M.Arch, Architectural Association London",
-    "college": "Oxford University",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -6876,7 +6841,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Kolkata (Alipore) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Delhi (Vasant Vihar) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -6885,9 +6850,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6905,7 +6870,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 97,
       "interests": 91,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Kolkata (Alipore), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Delhi (Vasant Vihar), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -6918,8 +6883,8 @@ export const mockProfiles: Profile[] = [
     "age": 37,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "Ahmedabad (Bodakdev)",
-    "state": "Gujarat",
+    "city": "Delhi (Greater Kailash)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -6927,17 +6892,17 @@ export const mockProfiles: Profile[] = [
     "gotra": "Madhukul",
     "maternalGotra": "Bhandal",
     "education": "MA, Central Saint Martins London",
-    "college": "Stanford University",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -6967,9 +6932,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -6987,7 +6952,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 98,
       "interests": 92,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Ahmedabad (Bodakdev), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Greater Kailash), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7000,8 +6965,8 @@ export const mockProfiles: Profile[] = [
     "age": 24,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Delhi (Golf Links)",
-    "state": "Delhi",
+    "city": "Mumbai (Malabar Hill)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -7009,16 +6974,16 @@ export const mockProfiles: Profile[] = [
     "gotra": "Mittal",
     "maternalGotra": "Kuchhal",
     "education": "MBA, Wharton & B.Tech",
-    "college": "Imperial College London",
+    "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -7040,7 +7005,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Delhi (Golf Links). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Mumbai (Malabar Hill). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -7049,9 +7014,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7069,7 +7034,7 @@ export const mockProfiles: Profile[] = [
       "career": 92,
       "location": 92,
       "interests": 93,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7082,31 +7047,26 @@ export const mockProfiles: Profile[] = [
     "age": 25,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "Gurugram (Golf Course Rd)",
-    "state": "Haryana",
+    "city": "Mumbai (Bandra West)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Mittal",
     "gotra": "Tayal",
     "maternalGotra": "Nagal",
-    "education": "MSc Finance, LSE",
-    "college": "IIT Delhi & IIM Ahmedabad",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -7127,7 +7087,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Mittal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at IIT Delhi & IIM Ahmedabad, currently working as a Managing Partner, Family Office in Gurugram (Golf Course Rd). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Mittal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Oxford University & IIT Delhi, currently working as a Co-Founder & CEO, Series B Fintech in Mumbai (Bandra West). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -7136,9 +7096,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7156,7 +7116,7 @@ export const mockProfiles: Profile[] = [
       "career": 93,
       "location": 93,
       "interests": 94,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Bandra West), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -7169,7 +7129,7 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "South Mumbai (Malabar Hill)",
+    "city": "Mumbai (Juhu)",
     "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
@@ -7177,17 +7137,17 @@ export const mockProfiles: Profile[] = [
     "community": "Singhal",
     "gotra": "Bhandal",
     "maternalGotra": "Bindal",
-    "education": "MS, Stanford University",
-    "college": "IIT Bombay & Wharton",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -7209,7 +7169,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from IIT Bombay & Wharton and currently based in South Mumbai (Malabar Hill). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Wharton (UPenn) & SRCC and currently based in Mumbai (Juhu). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -7218,9 +7178,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -7238,7 +7198,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 94,
       "interests": 95,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Juhu), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7251,26 +7211,31 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
+    "city": "Gurugram (Golf Course Rd)",
+    "state": "Haryana",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Jindal",
     "gotra": "Kuchhal",
     "maternalGotra": "Garg (Gargeya)",
-    "education": "MBA, INSEAD",
-    "college": "NYU Stern",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -7291,7 +7256,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Jindal traditions. Living between Jaipur (Civil Lines) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Jindal traditions. Living between Gurugram (Golf Course Rd) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -7300,9 +7265,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -7320,7 +7285,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 96,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7333,25 +7298,20 @@ export const mockProfiles: Profile[] = [
     "age": 28,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "London (Mayfair)",
-    "state": "Greater London",
-    "country": "United Kingdom",
-    "isNRI": true,
+    "city": "Jaipur (Civil Lines)",
+    "state": "Rajasthan",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Nagal",
     "maternalGotra": "Goyal (Goel)",
-    "education": "B.Tech, IIT & MBA",
-    "college": "University of Cambridge",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
@@ -7378,7 +7338,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Founder & CEO, Consumer Brand. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Principal, Management Consulting. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -7387,9 +7347,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -7405,9 +7365,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 97,
       "family": 97,
       "career": 96,
-      "location": 94,
+      "location": 96,
       "interests": 97,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7420,26 +7380,26 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Dubai (Downtown)",
-    "state": "Dubai",
-    "country": "United Arab Emirates",
-    "isNRI": true,
+    "city": "Chandigarh (Sector 9)",
+    "state": "Punjab",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Bindal",
     "maternalGotra": "Goyan",
-    "education": "LLM, Columbia Law School",
-    "college": "SRCC, Delhi University",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -7460,7 +7420,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Dubai (Downtown). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Chandigarh (Sector 9). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -7469,9 +7429,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -7487,9 +7447,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 98,
       "family": 98,
       "career": 97,
-      "location": 95,
+      "location": 97,
       "interests": 98,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7502,25 +7462,30 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
-    "country": "United States",
+    "city": "London (Mayfair)",
+    "state": "England",
+    "country": "United Kingdom",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Tayal",
     "gotra": "Garg (Gargeya)",
     "maternalGotra": "Bansal",
-    "education": "MD, AIIMS New Delhi",
-    "college": "LSE London",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -7542,7 +7507,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Tayal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at LSE London, currently working as a Radiologist & Clinical Fellow in New York (Manhattan). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Tayal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at London School of Economics (LSE), currently working as a Managing Director, Family Textile Mills in London (Mayfair). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -7551,9 +7516,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7571,7 +7536,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 86,
       "interests": 90,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -7584,31 +7549,26 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
+    "city": "New York (Manhattan)",
+    "state": "New York",
     "country": "United States",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Goyal (Goel)",
     "maternalGotra": "Kansal",
-    "education": "BBA, London Business School",
-    "college": "Wharton School, Penn",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -7629,7 +7589,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Wharton School, Penn and currently based in San Francisco (Bay Area). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from IIM Ahmedabad & IIT Bombay and currently based in New York (Manhattan). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -7638,9 +7598,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7658,7 +7618,7 @@ export const mockProfiles: Profile[] = [
       "career": 92,
       "location": 87,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7671,25 +7631,25 @@ export const mockProfiles: Profile[] = [
     "age": 32,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "Singapore (Marina Bay)",
-    "state": "Singapore",
-    "country": "Singapore",
+    "city": "San Francisco (Bay Area)",
+    "state": "California",
+    "country": "United States",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Goyan",
     "maternalGotra": "Singhal",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "University of Toronto",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -7711,7 +7671,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between Singapore (Marina Bay) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Agarwal traditions. Living between San Francisco (Bay Area) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -7720,9 +7680,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7740,7 +7700,7 @@ export const mockProfiles: Profile[] = [
       "career": 93,
       "location": 88,
       "interests": 92,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7753,26 +7713,26 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
+    "city": "Dubai (DIFC)",
+    "state": "Dubai",
+    "country": "United Arab Emirates",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Bansal",
     "maternalGotra": "Mangal",
     "education": "MFE, Oxford University",
-    "college": "AIIMS New Delhi",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -7802,9 +7762,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7822,7 +7782,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 89,
       "interests": 93,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (DIFC), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7835,25 +7795,25 @@ export const mockProfiles: Profile[] = [
     "age": 34,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Chandigarh (Sector 9)",
-    "state": "Punjab",
-    "country": "India",
-    "isNRI": false,
+    "city": "Singapore (Marina Bay)",
+    "state": "Singapore",
+    "country": "Singapore",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Kansal",
     "maternalGotra": "Jindal",
     "education": "M.Arch, Architectural Association London",
-    "college": "National Law School (NLSIU)",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -7875,7 +7835,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Chandigarh (Sector 9). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Singapore (Marina Bay). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -7884,9 +7844,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7902,9 +7862,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 94,
       "family": 93,
       "career": 95,
-      "location": 95,
+      "location": 90,
       "interests": 94,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -7917,26 +7877,26 @@ export const mockProfiles: Profile[] = [
     "age": 35,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "Bengaluru (Indiranagar)",
-    "state": "Karnataka",
-    "country": "India",
-    "isNRI": false,
+    "city": "Zurich (Enge)",
+    "state": "Zurich",
+    "country": "Switzerland",
+    "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Agarwal",
     "gotra": "Singhal",
     "maternalGotra": "Tingal",
     "education": "MA, Central Saint Martins London",
-    "college": "BITS Pilani",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -7957,7 +7917,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at BITS Pilani, currently working as a Luxury Brand Director in Bengaluru (Indiranagar). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Agarwal family where deep cultural heritage and a global worldview coexist seamlessly. Educated at National Law School (NLSIU Bangalore), currently working as a Luxury Brand Director in Zurich (Enge). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -7966,9 +7926,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -7984,9 +7944,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 95,
       "family": 94,
       "career": 96,
-      "location": 96,
+      "location": 91,
       "interests": 95,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Bengaluru (Indiranagar), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Zurich (Enge), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -7999,8 +7959,8 @@ export const mockProfiles: Profile[] = [
     "age": 36,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "Kolkata (Alipore)",
-    "state": "West Bengal",
+    "city": "Delhi (Golf Links)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
@@ -8011,7 +7971,7 @@ export const mockProfiles: Profile[] = [
     "college": "Columbia University & LSE",
     "degreeLevel": "MBA",
     "profession": "Vice President, Private Equity",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
@@ -8039,7 +7999,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Columbia University & LSE and currently based in Kolkata (Alipore). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from Columbia University & LSE and currently based in Delhi (Golf Links). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -8048,9 +8008,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -8068,7 +8028,7 @@ export const mockProfiles: Profile[] = [
       "career": 97,
       "location": 97,
       "interests": 96,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Kolkata (Alipore), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8081,31 +8041,26 @@ export const mockProfiles: Profile[] = [
     "age": 37,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "Ahmedabad (Bodakdev)",
-    "state": "Gujarat",
+    "city": "Delhi (Jor Bagh)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Maheshwari",
     "gotra": "Jindal",
     "maternalGotra": "Dharan",
-    "education": "MSc Finance, LSE",
-    "college": "Harvard Business School",
+    "education": "B.Tech, IIT & MS Stanford",
+    "college": "Oxford University & IIT Delhi",
     "degreeLevel": "Master's",
-    "profession": "Managing Partner, Family Office",
+    "profession": "Co-Founder & CEO, Series B Fintech",
     "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "isBusiness": false,
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -8126,7 +8081,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Maheshwari traditions. Living between Ahmedabad (Bodakdev) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Maheshwari traditions. Living between Delhi (Jor Bagh) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -8135,9 +8090,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -8155,7 +8110,7 @@ export const mockProfiles: Profile[] = [
       "career": 98,
       "location": 98,
       "interests": 97,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Ahmedabad (Bodakdev), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Delhi (Jor Bagh), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8168,7 +8123,7 @@ export const mockProfiles: Profile[] = [
     "age": 24,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "Delhi (Golf Links)",
+    "city": "Delhi (Vasant Vihar)",
     "state": "Delhi",
     "country": "India",
     "isNRI": false,
@@ -8176,17 +8131,17 @@ export const mockProfiles: Profile[] = [
     "community": "Maheshwari",
     "gotra": "Tingal",
     "maternalGotra": "Madhukul",
-    "education": "MS, Stanford University",
-    "college": "Oxford University",
+    "education": "LL.M, Harvard Law",
+    "college": "Wharton (UPenn) & SRCC",
     "degreeLevel": "Master's",
-    "profession": "Senior Director, Artificial Intelligence",
-    "income": "₹60 LPA–₹1 Cr",
+    "profession": "Partner, Corporate Law Firm",
+    "income": "₹50-75 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -8208,7 +8163,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Senior Director, Artificial Intelligence. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Partner, Corporate Law Firm. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -8217,9 +8172,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -8237,7 +8192,7 @@ export const mockProfiles: Profile[] = [
       "career": 92,
       "location": 92,
       "interests": 98,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Golf Links), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Delhi (Vasant Vihar), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8250,26 +8205,31 @@ export const mockProfiles: Profile[] = [
     "age": 25,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "Gurugram (Golf Course Rd)",
-    "state": "Haryana",
+    "city": "Delhi (Greater Kailash)",
+    "state": "Delhi",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Khandelwal",
     "gotra": "Aeron (Airan)",
     "maternalGotra": "Mittal",
-    "education": "MBA, INSEAD",
-    "college": "Stanford University",
-    "degreeLevel": "MBA",
-    "profession": "Strategy Consultant (Engagement Mgr)",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Sc, Wharton & Family Office",
+    "college": "Harvard Business School & BITS Pilani",
+    "degreeLevel": "Bachelor's",
+    "profession": "Executive Director, Family Conglomerate",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Vegan",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -8290,7 +8250,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in Gurugram (Golf Course Rd). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Delhi (Greater Kailash). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -8299,9 +8259,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -8319,7 +8279,7 @@ export const mockProfiles: Profile[] = [
       "career": 93,
       "location": 93,
       "interests": 90,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Delhi (Greater Kailash), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8332,7 +8292,7 @@ export const mockProfiles: Profile[] = [
     "age": 26,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "South Mumbai (Malabar Hill)",
+    "city": "Mumbai (Malabar Hill)",
     "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
@@ -8340,22 +8300,17 @@ export const mockProfiles: Profile[] = [
     "community": "Maheshwari",
     "gotra": "Dharan",
     "maternalGotra": "Tayal",
-    "education": "B.Tech, IIT & MBA",
-    "college": "Imperial College London",
+    "education": "MBA, INSEAD",
+    "college": "Stanford University",
     "degreeLevel": "MBA",
-    "profession": "Founder & CEO, Consumer Brand",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "profession": "Principal, Management Consulting",
+    "income": "₹55-80 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -8377,7 +8332,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Maheshwari family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Imperial College London, currently working as a Founder & CEO, Consumer Brand in South Mumbai (Malabar Hill). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Maheshwari family where deep cultural heritage and a global worldview coexist seamlessly. Educated at Stanford University, currently working as a Principal, Management Consulting in Mumbai (Malabar Hill). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -8386,9 +8341,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -8406,7 +8361,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 94,
       "interests": 91,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in South Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Malabar Hill), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -8419,26 +8374,26 @@ export const mockProfiles: Profile[] = [
     "age": 27,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "Jaipur (Civil Lines)",
-    "state": "Rajasthan",
+    "city": "Mumbai (Bandra West)",
+    "state": "Maharashtra",
     "country": "India",
     "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Oswal",
     "gotra": "Madhukul",
     "maternalGotra": "Bhandal",
-    "education": "LLM, Columbia Law School",
-    "college": "IIT Delhi & IIM Ahmedabad",
-    "degreeLevel": "Law",
-    "profession": "Corporate M&A Attorney",
-    "income": "₹40–60 LPA",
+    "education": "Ph.D, Stanford / Carnegie Mellon",
+    "college": "INSEAD & St. Stephen's College",
+    "degreeLevel": "Doctorate",
+    "profession": "Director of AI Research",
+    "income": "₹80 LPA - ₹1.2 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -8459,7 +8414,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from IIT Delhi & IIM Ahmedabad and currently based in Jaipur (Civil Lines). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from INSEAD & St. Stephen's College and currently based in Mumbai (Bandra West). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -8468,9 +8423,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -8488,7 +8443,7 @@ export const mockProfiles: Profile[] = [
       "career": 95,
       "location": 95,
       "interests": 92,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Mumbai (Bandra West), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8501,25 +8456,30 @@ export const mockProfiles: Profile[] = [
     "age": 28,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "London (Mayfair)",
-    "state": "Greater London",
-    "country": "United Kingdom",
-    "isNRI": true,
+    "city": "Mumbai (Juhu)",
+    "state": "Maharashtra",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Gupta",
     "gotra": "Mittal",
     "maternalGotra": "Kuchhal",
-    "education": "MD, AIIMS New Delhi",
-    "college": "IIT Bombay & Wharton",
-    "degreeLevel": "MD",
-    "profession": "Radiologist & Clinical Fellow",
-    "income": "₹40–60 LPA",
-    "isBusiness": false,
+    "education": "B.Com (Hons), SRCC & MBA London",
+    "college": "London School of Economics (LSE)",
+    "degreeLevel": "MBA",
+    "profession": "Managing Director, Family Textile Mills",
+    "income": "₹1 Cr+",
+    "isBusiness": true,
+    "businessDetails": {
+      "type": "Family Office & Global Manufacturing Holdings",
+      "size": "250-1,000+ Employees",
+      "turnover": "₹50 Cr - ₹250 Cr Annual"
+    },
     "diet": "Jain Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -8541,7 +8501,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Gupta traditions. Living between London (Mayfair) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Gupta traditions. Living between Mumbai (Juhu) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -8550,9 +8510,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -8568,9 +8528,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 93,
       "family": 91,
       "career": 96,
-      "location": 88,
+      "location": 96,
       "interests": 93,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Mumbai (Juhu), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8583,31 +8543,26 @@ export const mockProfiles: Profile[] = [
     "age": 29,
     "gender": "Male",
     "height": "5'12\"",
-    "city": "Dubai (Downtown)",
-    "state": "Dubai",
-    "country": "United Arab Emirates",
-    "isNRI": true,
+    "city": "Gurugram (Golf Course Rd)",
+    "state": "Haryana",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Porwal",
     "gotra": "Tayal",
     "maternalGotra": "Nagal",
-    "education": "BBA, London Business School",
-    "college": "NYU Stern",
-    "degreeLevel": "Bachelor's",
-    "profession": "Executive Director, Industrial Conglomerate",
-    "income": "₹1 Cr+",
-    "isBusiness": true,
-    "businessDetails": {
-      "type": "Family Office & Global Manufacturing Holdings",
-      "size": "250-1,000+ Employees",
-      "turnover": "₹50 Cr - ₹250 Cr Annual"
-    },
+    "education": "MD, M.Ch, AIIMS New Delhi",
+    "college": "IIM Ahmedabad & IIT Bombay",
+    "degreeLevel": "Doctorate",
+    "profession": "Consultant Surgeon (Super-Specialist)",
+    "income": "₹45-65 LPA",
+    "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -8628,7 +8583,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Executive Director, Industrial Conglomerate. Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
+    "about": "Brought up with timeless Baniya values emphasizing perseverance, integrity, and warmth. Serving as a Consultant Surgeon (Super-Specialist). Enjoys architecture, international design exhibitions, and wholesome vegetarian dining. Looking for an equal partner to build a graceful, loving home.",
     "interests": [
       "Sunday Family Brunches",
       "Polo & Golf",
@@ -8637,9 +8592,9 @@ export const mockProfiles: Profile[] = [
       "Hiking in Alps"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1615813967515-e1838c1c5116?auto=format&fit=crop&w=800&q=80",
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -8655,9 +8610,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 94,
       "family": 92,
       "career": 97,
-      "location": 89,
+      "location": 97,
       "interests": 94,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Dubai (Downtown), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Gurugram (Golf Course Rd), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8670,19 +8625,19 @@ export const mockProfiles: Profile[] = [
     "age": 30,
     "gender": "Male",
     "height": "5'13\"",
-    "city": "New York (Manhattan)",
-    "state": "New York",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Jaipur (Civil Lines)",
+    "state": "Rajasthan",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Rastogi",
     "gotra": "Bhandal",
     "maternalGotra": "Bindal",
     "education": "B.Tech, IIT & MBA, IIM-A",
-    "college": "University of Cambridge",
+    "college": "Cambridge University",
     "degreeLevel": "MBA",
     "profession": "Product Management Lead",
-    "income": "₹40–60 LPA",
+    "income": "₹40-60 LPA",
     "isBusiness": false,
     "diet": "Vegan",
     "religion": "Hindu",
@@ -8710,7 +8665,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Living and working in New York (Manhattan). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
+    "about": "Living and working in Jaipur (Civil Lines). A believer in purposeful ambition, cultural rootedness, and understated elegance. Looking for a life partner who values family harmony, personal authenticity, and lifelong companionship.",
     "interests": [
       "Fine Dining Exploration",
       "Cordon Bleu Baking",
@@ -8719,9 +8674,9 @@ export const mockProfiles: Profile[] = [
       "Pilates"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_1.jpg",
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -8737,9 +8692,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 95,
       "family": 93,
       "career": 98,
-      "location": 90,
+      "location": 98,
       "interests": 95,
-      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a vegan lifestyle, share an international educational pedigree in Jaipur (Civil Lines), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8752,26 +8707,26 @@ export const mockProfiles: Profile[] = [
     "age": 31,
     "gender": "Male",
     "height": "5'9\"",
-    "city": "San Francisco (Bay Area)",
-    "state": "California",
-    "country": "United States",
-    "isNRI": true,
+    "city": "Chandigarh (Sector 9)",
+    "state": "Punjab",
+    "country": "India",
+    "isNRI": false,
     "motherTongue": "Hindi",
     "community": "Lodha",
     "gotra": "Kuchhal",
     "maternalGotra": "Garg (Gargeya)",
     "education": "MFE, Oxford University",
-    "college": "SRCC, Delhi University",
+    "college": "ISB Hyderabad & SRCC",
     "degreeLevel": "Master's",
     "profession": "Quantitative Portfolio Manager",
-    "income": "₹60 LPA–₹1 Cr",
+    "income": "₹60 LPA - ₹1 Cr",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -8792,7 +8747,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Raised in a refined North Indian Lodha family where deep cultural heritage and a global worldview coexist seamlessly. Educated at SRCC, Delhi University, currently working as a Quantitative Portfolio Manager in San Francisco (Bay Area). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
+    "about": "Raised in a refined North Indian Lodha family where deep cultural heritage and a global worldview coexist seamlessly. Educated at ISB Hyderabad & SRCC, currently working as a Quantitative Portfolio Manager in Chandigarh (Sector 9). Grounded, well-traveled, and values thoughtful conversations, festive family dinners, and mutual intellectual growth.",
     "interests": [
       "Classical Piano",
       "Alpine Skiing",
@@ -8801,9 +8756,9 @@ export const mockProfiles: Profile[] = [
       "Vipassana"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_2.jpg",
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg"
     ],
     "verification": {
       "mobile": true,
@@ -8819,9 +8774,9 @@ export const mockProfiles: Profile[] = [
       "lifestyle": 96,
       "family": 94,
       "career": 92,
-      "location": 91,
+      "location": 92,
       "interests": 96,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in San Francisco (Bay Area), and prioritize a liberal family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Chandigarh (Sector 9), and prioritize a liberal family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": true,
@@ -8834,25 +8789,25 @@ export const mockProfiles: Profile[] = [
     "age": 32,
     "gender": "Male",
     "height": "5'10\"",
-    "city": "Singapore (Marina Bay)",
-    "state": "Singapore",
-    "country": "Singapore",
+    "city": "London (Mayfair)",
+    "state": "England",
+    "country": "United Kingdom",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Mahajan",
     "gotra": "Nagal",
     "maternalGotra": "Goyal (Goel)",
     "education": "M.Arch, Architectural Association London",
-    "college": "LSE London",
+    "college": "AIIMS New Delhi",
     "degreeLevel": "Master's",
     "profession": "Architect & Spatial Designer",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Pure Vegetarian",
     "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
+      "drinking": "Occasional wine",
       "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
@@ -8874,7 +8829,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "A blend of classic Indian poise and modern international ambition. Graduated from LSE London and currently based in Singapore (Marina Bay). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
+    "about": "A blend of classic Indian poise and modern international ambition. Graduated from AIIMS New Delhi and currently based in London (Mayfair). Passionate about building meaningful ventures, staying active with morning runs, and hosting warm family gatherings. Looking for a partner who cherishes shared cultural ethics and emotional connection.",
     "interests": [
       "Equestrian",
       "Architectural Heritage",
@@ -8883,9 +8838,9 @@ export const mockProfiles: Profile[] = [
       "Tea Tasting"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_3.jpg",
+      "/portraits/male_5.jpg",
+      "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -8903,7 +8858,7 @@ export const mockProfiles: Profile[] = [
       "career": 93,
       "location": 92,
       "interests": 97,
-      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in Singapore (Marina Bay), and prioritize a moderate family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a pure vegetarian lifestyle, share an international educational pedigree in London (Mayfair), and prioritize a moderate family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
@@ -8916,26 +8871,26 @@ export const mockProfiles: Profile[] = [
     "age": 33,
     "gender": "Male",
     "height": "5'11\"",
-    "city": "Toronto (Yorkville)",
-    "state": "Ontario",
-    "country": "Canada",
+    "city": "New York (Manhattan)",
+    "state": "New York",
+    "country": "United States",
     "isNRI": true,
     "motherTongue": "Hindi",
     "community": "Jain Baniya",
     "gotra": "Bindal",
     "maternalGotra": "Goyan",
     "education": "MA, Central Saint Martins London",
-    "college": "Wharton School, Penn",
+    "college": "National Law School (NLSIU Bangalore)",
     "degreeLevel": "Master's",
     "profession": "Luxury Brand Director",
-    "income": "₹25–40 LPA",
+    "income": "₹25-40 LPA",
     "isBusiness": false,
     "diet": "Jain Vegetarian",
-    "religion": "Jain",
+    "religion": "Hindu",
     "lifestyle": {
       "smoking": "Non-smoker",
-      "drinking": "Non-drinker",
-      "fitness": "Daily marathon training & gym",
+      "drinking": "Occasional wine",
+      "fitness": "Reformer pilates & tennis",
       "spiritual": "Meditation, temple visits & mindfulness",
       "social": "Cultured, loves private dinners and family reunions"
     },
@@ -8956,7 +8911,7 @@ export const mockProfiles: Profile[] = [
       "livingArrangement": "Independent residence in city center with family close by",
       "familyInvolvement": "High - Warm, collaborative discussions between parents and candidate"
     },
-    "about": "Cosmopolitan outlook with strong roots in Jain Baniya traditions. Living between Toronto (Yorkville) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
+    "about": "Cosmopolitan outlook with strong roots in Jain Baniya traditions. Living between New York (Manhattan) and Delhi. I appreciate high standards in personal and professional life, quiet luxury, literature, and weekend road trips. Seeking someone kind-hearted, ambitious, and family-oriented.",
     "interests": [
       "Marathon Running",
       "Private Art Galleries",
@@ -8965,9 +8920,9 @@ export const mockProfiles: Profile[] = [
       "Reading History"
     ],
     "photos": [
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=800&q=80"
+      "/portraits/male_4.jpg",
+      "/portraits/male_6.jpg",
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80"
     ],
     "verification": {
       "mobile": true,
@@ -8985,7 +8940,7 @@ export const mockProfiles: Profile[] = [
       "career": 94,
       "location": 93,
       "interests": 98,
-      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in Toronto (Yorkville), and prioritize a traditional family outlook with strong cultural ties."
+      "whyMatch": "Both embrace a jain vegetarian lifestyle, share an international educational pedigree in New York (Manhattan), and prioritize a traditional family outlook with strong cultural ties."
     },
     "isPremium": true,
     "isBoosted": false,
